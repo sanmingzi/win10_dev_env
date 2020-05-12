@@ -1,2 +1,3 @@
 # win10_dev_env
-Build the Ubuntu coding environment on Windows10
+
+Build a coding environment: Win10 + WSL2 + Ubuntun-18.04 + docker
