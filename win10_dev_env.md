@@ -1,4 +1,4 @@
-# 开发环境配置: Win10 + WSL2 + Ubuntu-18.04 + docker
+# 开发环境配置: Win10 + WSL2 + Ubuntu-18.04 + Docker
 
 ## WSL2
 
@@ -8,19 +8,20 @@
 
 ## Ubuntu-18.04
 
-- 安装
-- 设置apt源
-- 更新apt
+- 安装 Ubuntu-18.04
+- [设置apt源](https://www.cnblogs.com/dream4567/p/9690850.html)
 
-## docker
+## Docker
 
 [使用国内源为Ubuntu18.04安装Docker](https://www.jianshu.com/p/9b1dd79b5708?tdsourcetag=s_pcqq_aiomsg)
 
+```
 sudo service docker start
 docker info
 docker run hello-world
 docker image ls
 docker container ls
+```
 
 ## 文件共享
 
